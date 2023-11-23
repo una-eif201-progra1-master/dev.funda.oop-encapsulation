@@ -5,6 +5,12 @@
 #ifndef MAIN_BANKACCOUNT_H
 #define MAIN_BANKACCOUNT_H
 
+/*!
+ * \class BankAccount
+ * \brief The class BankAccount is the base class
+ * \file BankAccount.h
+ * \brief The file BankAccount.h is the header file of the class BankAccount
+ */
 class BankAccount {
 private:
     double balance;
