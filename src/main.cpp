@@ -46,8 +46,13 @@ using namespace std;
  */
 
 int main() {
+    system("clear");
+    std::cout << "Universidad Nacional de Costa Rica - mikeguzman.dev" << std::endl;
+
     BankAccount account{};
     account.setBalance(1000.0);
     cout << "Balance: $" << account.getBalance();  // Output: Balance: $1000.0
+
+    std::cout << std::endl;
     return 0;
 }
